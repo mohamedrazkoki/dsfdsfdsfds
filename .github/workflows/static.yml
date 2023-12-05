@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Popup</title>
+</head>
+<body>
+  <button onclick="openPopup()">Open Popup</button>
+
+<script>
+function openPopup() {
+  var popupWindow = window.open("https://t.co/1velIeZFiU", "popup", "width=500,height=500");
+  popupWindow.focus();
+}
+</script>
+</body>
+</html>
